@@ -1,0 +1,16 @@
+brand,category,avg_price,avg_rating,product_count,total_reviews,market_share_pct,flagship_model,price_range
+Samsung,electronics,98994,4.55,2,5182,18.2,Galaxy S24 Ultra,39999-124999
+Apple,electronics,104900,4.74,3,10945,22.1,iPhone 15 Pro,59900-134900
+OnePlus,electronics,64999,4.40,1,2105,8.4,OnePlus 12,29999-64999
+Xiaomi,electronics,59999,4.30,1,1890,7.1,Xiaomi 14,14999-59999
+Sony,electronics,139990,4.80,2,8123,12.3,WH-1000XM5,9990-249990
+Realme,electronics,39999,4.20,1,987,4.2,GT 5 Pro,14999-39999
+Dell,electronics,155990,4.50,1,1231,5.8,XPS 15,44990-155990
+Lenovo,electronics,149990,4.60,1,876,4.1,ThinkPad X1,49990-149990
+Asus,electronics,139990,4.70,1,1543,5.2,ROG Zephyrus,69990-139990
+HP,electronics,67990,4.20,1,2089,3.4,Pavilion x360,39990-89990
+JBL,electronics,9499,4.50,1,4102,2.1,Flip 6,2999-14999
+Boat,electronics,1299,4.10,1,15023,6.8,Airdopes 141,499-4999
+Nike,clothing,9995,4.40,1,8932,5.2,Air Max 270,2999-19999
+Adidas,clothing,15000,4.60,1,4231,4.8,Ultraboost 23,4999-19999
+Levis,clothing,3999,4.50,1,12034,3.2,501 Original,1999-5999

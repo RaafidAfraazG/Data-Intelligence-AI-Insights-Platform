@@ -1,0 +1,53 @@
+# ─────────────────────────────────────────────────────────────────
+# AI Market Intelligence Platform
+# requirements.txt — Full Stack (Foundation + AI Intelligence Layer)
+# ─────────────────────────────────────────────────────────────────
+
+# ── Web Framework ──────────────────────────────────────────────────
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+
+# ── Database & ORM ─────────────────────────────────────────────────
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.10        # PostgreSQL driver
+
+# ── Validation ─────────────────────────────────────────────────────
+pydantic==2.10.3
+
+# ── Data Processing ────────────────────────────────────────────────
+pandas==2.2.3
+numpy==2.2.0
+
+# ── Scraping ───────────────────────────────────────────────────────
+requests==2.32.3
+beautifulsoup4==4.12.3
+playwright==1.49.0              # Run: playwright install chromium
+
+# ── NLP ────────────────────────────────────────────────────────────
+nltk==3.9.1                     # Tokenization, stopwords, VADER, lemmatization
+scikit-learn==1.6.0             # TF-IDF, LDA
+
+# ── Sentiment Analysis ─────────────────────────────────────────────
+# VADER is included with nltk (nltk.sentiment.vader)
+# No separate install needed
+
+# ── AI / Gemini ────────────────────────────────────────────────────
+google-generativeai==0.8.3      # Gemini API — summaries, insights, QA
+
+# ── Embeddings ─────────────────────────────────────────────────────
+sentence-transformers==3.3.1    # all-MiniLM-L6-v2 — 384-dim embeddings
+
+# ── Vector Store ───────────────────────────────────────────────────
+chromadb==0.6.3                 # Embedded vector DB — no server needed
+
+# ── Utilities ──────────────────────────────────────────────────────
+python-dotenv==1.0.1
+
+# ── Testing ────────────────────────────────────────────────────────
+pytest==8.3.4
+pytest-asyncio==0.24.0
+httpx==0.28.1                   # Async test client for FastAPI
+
+# ── Dev Tooling (optional) ─────────────────────────────────────────
+# ruff==0.8.4                   # Linter & formatter
+# mypy==1.13.0                  # Static type checker

@@ -1,0 +1,46 @@
+id,product_id,reviewer,rating,review_text,review_date
+1,1,Rahul Sharma,5,"Absolutely love the S24 Ultra! The S Pen is incredibly useful and the camera quality is outstanding. Night photography is leagues ahead of my old phone. Battery easily lasts a full day even with heavy use.",2024-03-15
+2,1,Priya Nair,4,"Great phone overall. The Snapdragon 8 Gen 3 is blazing fast and the display is stunning. Only complaint is it's a bit heavy for prolonged use. The AI features are genuinely useful.",2024-03-20
+3,1,Amit Kumar,3,"Camera is excellent but the phone gets warm during gaming sessions. Software bloat is an issue. Samsung Pay stopped working twice.",2024-04-01
+4,1,Sneha Patel,5,"Best Android phone I have ever owned. The 200MP camera is insane for photography. Zoom capability is miles ahead of competition. S Pen integration in apps is seamless.",2024-04-10
+5,1,Rohan Mehta,2,"Expensive for what it offers. The bloatware is ridiculous. Samsung health and Bixby always running in background. Battery drain faster than expected on 5G.",2024-04-15
+6,2,Kavitha Reddy,5,"iPhone 15 Pro is simply the best smartphone available. The titanium build feels premium. A17 Pro chip handles everything effortlessly. Camera system is best in class.",2024-02-20
+7,2,Arjun Singh,5,"Switched from Android and have zero regrets. The ecosystem integration with iPad and MacBook is seamless. Battery life improved significantly over iPhone 14 Pro.",2024-02-25
+8,2,Meera Iyer,4,"Excellent phone but priced very high. Camera is fantastic especially in low light. The Action button is really useful. USB-C finally! Wish battery was a bit bigger.",2024-03-05
+9,2,Vikram Gupta,3,"Good phone but not worth the upgrade from iPhone 14 Pro. Main camera improvement is marginal. Price has gone up significantly.",2024-03-12
+10,2,Ananya Roy,5,"The ProMotion display is buttery smooth. Photography improved dramatically. Build quality is outstanding and the phone feels great in hand.",2024-03-18
+11,3,Suresh Kumar,4,"OnePlus 12 is a great flagship killer. 100W charging is incredibly fast. Camera quality has improved significantly with Hasselblad. Display is gorgeous.",2024-01-15
+12,3,Deepika Menon,5,"Best value flagship available. Charges from 0 to 100 in about 25 minutes. The OxygenOS is clean and snappy. No bloatware which I appreciate.",2024-01-22
+13,3,Rajesh Verma,4,"Good phone but camera could be better in low light compared to Samsung and Apple. Haptics feel cheap. Otherwise performance is top notch.",2024-02-01
+14,3,Lakshmi Rao,3,"The phone overheats during sustained gaming. BGMI frames drop occasionally. Customer service was not helpful when I raised this issue.",2024-02-10
+15,4,Kartik Sharma,4,"Xiaomi 14 with Leica cameras is excellent value. Photos look cinematic. Battery life is surprisingly good for the compact size.",2024-02-05
+16,4,Nisha Kapoor,3,"Phone is great but MIUI has too many ads and pre-installed apps. Had to spend an hour cleaning it up. Performance itself is excellent.",2024-02-12
+17,4,Ravi Teja,5,"The Leica partnership really shows in photo quality. Colors are accurate and skin tones are natural. Fast charging is amazing.",2024-02-20
+18,5,Pooja Desai,4,"Realme GT 5 Pro punches way above its price. Performance matches phones costing 20000 more. Cooling is excellent during gaming sessions.",2024-01-10
+19,5,Sanjay Mishra,3,"Good phone but software support is questionable for Realme. Camera quality is average. Build quality feels premium though.",2024-01-18
+20,6,Divya Krishnan,5,"These headphones are absolutely worth every rupee. Noise cancellation is magical. Clarity is incredible whether on calls or music. Battery lasts much longer than rated.",2024-03-01
+21,6,Hemant Patel,5,"Best headphones I have ever used. Noise cancellation on trains and flights is a game changer. Audio quality is reference grade. Very comfortable for long sessions.",2024-03-08
+22,6,Anita Bose,4,"Great headphones but the case is quite bulky. Sound quality is superb and noise cancellation works really well. A bit heavy after 3 hours of use.",2024-03-15
+23,6,Kiran Reddy,5,"Upgraded from WH-1000XM4 and the improvements are real. Multipoint connection works flawlessly between phone and laptop. Worth the premium price.",2024-03-22
+24,7,Vinod Nair,4,"JBL Flip 6 has excellent sound for its size. IP67 rating gives confidence to use outdoors. Bass is punchy. PartyBoost with another Flip 6 is fantastic.",2024-02-18
+25,7,Sunita Agarwal,5,"Perfect outdoor speaker. Survived accidental drops and rain. Sound is loud and clear at max volume. Battery easily lasts the stated 12 hours.",2024-02-25
+26,8,Mukesh Joshi,4,"Boat Airdopes 141 is unbelievable value at this price. BEAST Mode works great for gaming. Fit is comfortable. Some wind noise outdoors.",2024-01-05
+27,8,Preethi Kumar,3,"Good budget earbuds but call quality could be better. Mic picks up background noise. Music quality is decent for the price though.",2024-01-12
+28,9,Aravind Rao,5,"MacBook Air M2 is an exceptional machine. Performance is incredible with no fan noise. Battery life is beyond what Apple claims. Best laptop I have ever owned.",2024-03-10
+29,9,Shalini Verma,5,"The M2 chip handles everything effortlessly including video editing in Final Cut. Display is gorgeous. Trackpad and keyboard are best in class.",2024-03-17
+30,9,Gopal Menon,4,"Excellent laptop but thermal throttling occurs during sustained CPU loads. For most tasks it is perfect and fanless design is great.",2024-03-24
+31,10,Harish Patel,4,"Dell XPS 15 OLED is visually stunning. Build quality is premium. Performance with i7 is excellent. Runs quite hot and battery life is mediocre.",2024-02-08
+32,10,Lavanya Singh,3,"Expensive laptop that gets very hot. Thermal management needs work. Display is spectacular though and keyboard is comfortable.",2024-02-15
+33,11,Dhruv Kumar,5,"ThinkPad X1 Carbon is the best business laptop money can buy. Build quality is exceptional. Keyboard is best in class. Battery life is outstanding.",2024-01-20
+34,12,Gaurav Sharma,5,"ROG Zephyrus G14 is the most balanced gaming laptop available. Performance to portability ratio is unmatched. AniMe Matrix is a nice touch.",2024-03-05
+35,12,Tanya Mehta,4,"Great gaming performance in a relatively slim package. Display is gorgeous. Gets warm but not uncomfortably so. Battery dies quickly under gaming load.",2024-03-12
+36,15,Mohan Rao,5,"iPad Air M2 is the perfect tablet for students and professionals. M2 chip is overkill in the best way. Display is beautiful. Works great with Apple Pencil.",2024-02-15
+37,16,Priya Sharma,5,"Logitech MX Master 3S is the best productivity mouse available. Scroll wheel is a revelation. Fits perfectly in hand. Multi-device switching is seamless.",2024-03-08
+38,20,Srinivas Iyer,4,"Godrej refrigerator is energy efficient and spacious. Inverter compressor runs quietly. Cooling is uniform. Delivery and installation was smooth.",2024-01-25
+39,21,Rekha Pillai,4,"Whirlpool AC cools the room very quickly. Installation was done professionally. Energy bills went down compared to old 3-star AC. 5G WiFi connectivity is neat.",2024-02-10
+40,25,Rohan Das,4,"Nike Air Max 270 is incredibly comfortable for all-day wear. Cushioning is excellent. Sizing runs true to chart. Looks great with casual outfits.",2024-03-01
+41,26,Neha Jain,5,"Adidas Ultraboost 23 is the best running shoe I have worn. BOOST cushioning returns energy with every step. Fits perfectly. Very breathable upper.",2024-03-08
+42,27,Akash Gupta,5,"Levis 501 Original are timeless classics. Quality is consistent across washes. Fit is perfect for straight leg preference. Worth every rupee.",2024-03-15
+43,29,Sheela Krishnamurthy,5,"Titan Raga is stunningly beautiful. Mother of pearl dial catches light wonderfully. Quality feels comparable to international brands at double the price.",2024-03-22
+44,30,Rahul Nair,3,"Noise smartwatch is decent for the price. Bluetooth calling is hit or miss. SpO2 and step tracking seem accurate. Battery lasts about 5 days with AOD off.",2024-02-18
+45,30,Anjali Patel,2,"Strap started peeling after 2 months. Customer support was unhelpful. App is buggy and pairing drops frequently. Expected better from Noise.",2024-02-25

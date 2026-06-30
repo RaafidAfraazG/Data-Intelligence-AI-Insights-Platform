@@ -1,0 +1,73 @@
+# ── Core ──────────────────────────────────────────────────────────────────────
+app/__init__.py
+app/core/__init__.py
+app/core/exceptions.py
+app/core/response.py
+
+# ── Config ────────────────────────────────────────────────────────────────────
+app/config/__init__.py
+app/config/settings.py
+app/config/logging_config.py
+app/config/constants.py
+
+# ── Database ──────────────────────────────────────────────────────────────────
+app/database/__init__.py
+app/database/base.py
+app/database/session.py
+
+# ── Models ────────────────────────────────────────────────────────────────────
+app/models/__init__.py
+app/models/product.py
+app/models/review.py
+app/models/source.py
+app/models/metadata.py
+app/models/search_history.py
+
+# ── Schemas ───────────────────────────────────────────────────────────────────
+app/schemas/__init__.py
+app/schemas/product.py
+app/schemas/review.py
+app/schemas/source.py
+app/schemas/search_history.py
+
+# ── Repositories ──────────────────────────────────────────────────────────────
+app/repositories/__init__.py
+app/repositories/base.py
+app/repositories/product.py
+app/repositories/review.py
+app/repositories/source.py
+app/repositories/search_history.py
+
+# ── Services ──────────────────────────────────────────────────────────────────
+app/services/__init__.py
+app/services/product_service.py
+app/services/review_service.py
+app/services/scraping_service.py
+app/services/cleaning_service.py
+app/services/export_service.py
+
+# ── Scrapers ──────────────────────────────────────────────────────────────────
+app/scrapers/__init__.py
+app/scrapers/base_scraper.py
+app/scrapers/playwright_scraper.py
+app/scrapers/bs4_scraper.py
+app/scrapers/csv_importer.py
+app/scrapers/url_collector.py
+
+# ── Preprocessing ─────────────────────────────────────────────────────────────
+app/preprocessing/__init__.py
+app/preprocessing/cleaner.py
+
+# ── Export ────────────────────────────────────────────────────────────────────
+app/utils/__init__.py
+app/utils/export.py
+app/utils/helpers.py
+
+# ── API Routes ────────────────────────────────────────────────────────────────
+app/api/__init__.py
+app/api/routes/__init__.py
+app/api/routes/products.py
+app/api/routes/reviews.py
+app/api/routes/scraping.py
+app/api/routes/cleaning.py
+app/api/routes/export.py
