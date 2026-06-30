@@ -1,184 +1,192 @@
 <div align="center">
-  <h1>🧠 AI Market Intelligence Platform</h1>
-  <p>A full-stack AI-powered platform for e-commerce data aggregation, NLP analysis, and semantic search.</p>
+
+# 🧠 AI Market Intelligence Platform
+
+**An AI-powered platform for collecting, analyzing, and searching e-commerce market data using NLP, semantic search, and LLMs.**
+
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green)
+![React](https://img.shields.io/badge/React-Frontend-61DAFB)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-VectorDB-orange)
+![Gemini](https://img.shields.io/badge/Gemini-LLM-purple)
+
 </div>
 
 ---
 
-## 📖 Project Overview
+# 📖 Overview
 
-The **AI Market Intelligence Platform** is a modern web application that collects product data from e-commerce websites, cleans and normalises it, and applies a comprehensive AI intelligence pipeline to extract actionable market insights.
+AI Market Intelligence Platform is an end-to-end data intelligence system that automatically collects product and customer review data from multiple sources, cleans and structures it, performs NLP analysis, enables semantic search using vector embeddings, and generates AI-powered business insights.
 
-This project was built as a final-year Computer Science portfolio project, demonstrating production-ready backend architecture, applied Machine Learning (NLP/Embeddings), LLM integration (RAG), and a modern React frontend.
-
----
-
-## ✨ Key Features
-
-1. **Robust Data Pipeline**
-   - Playwright/BeautifulSoup scrapers for automated data collection.
-   - Pandas-based cleaning module for deduplication and text normalization.
-   - Support for bulk CSV data imports.
-
-2. **Advanced NLP & Machine Learning**
-   - **Sentiment Analysis**: VADER (NLTK) for review classification.
-   - **Keyword Extraction**: TF-IDF scoring via scikit-learn.
-   - **Topic Modeling**: LDA clustering to discover hidden consumer themes.
-
-3. **Semantic Search & Vector Database**
-   - `sentence-transformers` (`all-MiniLM-L6-v2`) used to embed products and reviews.
-   - **ChromaDB** used for blazing-fast semantic similarity search (Cosine).
-
-4. **Generative AI (Google Gemini)**
-   - **Retrieval-Augmented Generation (RAG)**: Ask questions about the product dataset.
-   - **Automated Summaries**: AI-generated executive summaries and product comparisons.
-   - **Market Reports**: Automated generation of comprehensive Markdown reports.
-
-5. **Modern Interactive Dashboard**
-   - Built with **React**, **Vite**, and **TailwindCSS**.
-   - Interactive data visualizations using **Recharts**.
-   - Full integration with the FastAPI backend via Axios.
+This project demonstrates the complete **Data Intelligence pipeline**, from data collection to AI-driven analytics, using modern backend engineering and machine learning tools.
 
 ---
 
-## 🏛️ Architecture
+# ✨ Features
 
-The backend follows a strict layered architecture pattern for maximum maintainability:
+### 📊 Data Collection
+- Web scraping using Playwright & BeautifulSoup
+- Customer review collection
+- Competitor product collection
+- Blog article scraping
+- Manual URL input
+- CSV import
+
+### 🧹 Data Processing
+- Duplicate removal
+- Missing value handling
+- HTML cleaning
+- Price normalization
+- Category standardization
+- Text normalization
+
+### 🤖 AI & NLP
+- Sentiment Analysis
+- Keyword Extraction
+- Topic Modeling
+- Product & Review Summaries
+- AI-generated Business Insights
+
+### 🔍 Semantic Search
+- Sentence Transformer Embeddings
+- ChromaDB Vector Database
+- Similar Product Search
+- Natural Language Question Answering
+
+### 📈 Dashboard
+- Product Analytics
+- Sentiment Distribution
+- Keyword Trends
+- Competitor Comparison
+- AI Insights
+- Report Generation
+
+---
+
+# 🏗️ Architecture
 
 ```text
-API Layer  →  Service Layer  →  Repository Layer  →  PostgreSQL Database
-                  ↓
-           AI Intelligence Layer (NLP + Embeddings + ChromaDB + Gemini)
-                  ↓
-           React Frontend (Vite + TailwindCSS)
+             React Dashboard
+                    │
+                    ▼
+             FastAPI Backend
+                    │
+     ┌──────────────┼──────────────┐
+     ▼              ▼              ▼
+ Scrapers      NLP Pipeline    AI Services
+     │              │              │
+     └──────────────┼──────────────┘
+                    ▼
+         PostgreSQL + ChromaDB
+                    │
+                    ▼
+             Gemini API (LLM)
 ```
-
-*(See the `docs/` folder for detailed Architecture Diagrams, ERDs, and API References).*
 
 ---
 
-## ⚙️ Installation & Setup
+# 🛠️ Tech Stack
 
-### Prerequisites
-- Python 3.10+
-- Node.js 18+
-- PostgreSQL
+| Category | Technologies |
+|-----------|--------------|
+| Backend | FastAPI, Python, SQLAlchemy |
+| Frontend | React, Vite, Tailwind CSS |
+| Database | PostgreSQL, ChromaDB |
+| AI | Gemini API, Sentence Transformers |
+| NLP | NLTK, Scikit-learn |
+| Data | Pandas, NumPy |
+| Scraping | Playwright, BeautifulSoup |
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/ai-market-intelligence.git
-cd "AI Market Intelligence Platform"
+---
+
+# 📂 Project Structure
+
+```text
+AI Market Intelligence Platform
+│
+├── app/
+├── frontend/
+├── data/
+├── docs/
+├── reports/
+├── scripts/
+├── tests/
+├── requirements.txt
+└── README.md
 ```
 
-### 2. Backend Setup
-```bash
-# Create and activate virtual environment
-python -m venv venv
-venv\Scripts\activate            # Windows
-source venv/bin/activate         # macOS / Linux
+---
 
-# Install Python dependencies
+# 🚀 Getting Started
+
+## Backend
+
+```bash
+git clone https://github.com/RaafidAfraazG/Data-Intelligence-AI-Insights-Platform.git
+
+cd Data-Intelligence-AI-Insights-Platform
+
+python -m venv venv
+
+# Windows
+venv\Scripts\activate
+
+# Linux/macOS
+source venv/bin/activate
+
 pip install -r requirements.txt
 
-# Install Playwright browsers (for scraping)
 playwright install chromium
 
-# Set up environment variables
-cp .env.example .env
-# Edit .env: Add your PostgreSQL URL and GEMINI_API_KEY
+uvicorn main:app --reload
 ```
 
-### 3. Frontend Setup
-```bash
-cd frontend
-npm install
-```
+Swagger API:
 
-### 4. Database Seeding (Sample Data)
-To quickly test the platform without scraping, use the provided sample data:
-```bash
-# From the root directory
-python scripts/seed.py
 ```
-*This populates PostgreSQL with 30 sample products and 45 realistic reviews.*
+http://localhost:8000/docs
+```
 
 ---
 
-## 🚀 Running the Platform
+## Frontend
 
-You need two terminals to run the platform locally.
-
-**Terminal 1 (FastAPI Backend):**
-```bash
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
-```
-- Swagger API Docs: [http://localhost:8000/docs](http://localhost:8000/docs)
-
-**Terminal 2 (React Frontend):**
 ```bash
 cd frontend
+
+npm install
+
 npm run dev
 ```
-- Interactive Dashboard: [http://localhost:5173](http://localhost:5173)
 
----
+Frontend:
 
-## 📸 Screenshots
-
-*(Replace these placeholders with actual screenshots of your running application)*
-
-| Dashboard Overview | Semantic Search |
-| :---: | :---: |
-| ![Dashboard](https://via.placeholder.com/600x400.png?text=Dashboard+Screenshot) | ![Search](https://via.placeholder.com/600x400.png?text=Semantic+Search) |
-| **Product Insights** | **Market Reports** |
-| ![Insights](https://via.placeholder.com/600x400.png?text=AI+Insights) | ![Reports](https://via.placeholder.com/600x400.png?text=Generated+Reports) |
-
----
-
-## 📡 API Overview
-
-The platform exposes over 30 RESTful endpoints. Here is a high-level summary:
-
-- `/api/v1/products`: Standard CRUD operations.
-- `/api/v1/scrape/*`: Trigger URL scrapers and CSV uploads.
-- `/api/v1/dashboard/*`: Pre-aggregated data for frontend charts.
-- `/api/v1/ai/*`: NLP triggers, vector embeddings, Gemini Q&A.
-- `/api/v1/agents/*`: Trigger autonomous analysis pipelines.
-
-*For full details, see the Swagger UI or `docs/api_reference.md`.*
-
----
-
-## 🧪 Testing
-
-The backend includes a comprehensive pytest suite that runs against an in-memory SQLite database (no PostgreSQL required for testing).
-
-```bash
-pytest tests/ -v
+```
+http://localhost:5173
 ```
 
 ---
 
-## 🔜 Future Scope
+# 📡 API Modules
 
-While the platform is feature-complete for a portfolio project, future enterprise enhancements could include:
-- **Authentication**: JWT-based user login and role-based access control.
-- **Task Queues**: Offload heavy scraping and AI tasks to Celery + Redis.
-- **Containerization**: Full Docker support with Docker Compose.
-- **Time-Series Analysis**: Tracking product price changes over time.
-
----
-
-## 🛠️ Tech Stack
-
-- **Backend**: Python, FastAPI, SQLAlchemy 2.0, Pydantic v2
-- **Database**: PostgreSQL (Relational), ChromaDB (Vector)
-- **Machine Learning**: NLTK, scikit-learn, SentenceTransformers
-- **Generative AI**: Google Gemini API (`gemini-1.5-flash`)
-- **Frontend**: React, Vite, TailwindCSS, Recharts
-- **Data processing**: Pandas, BeautifulSoup, Playwright
+- Product Management
+- Review Management
+- Web Scraping
+- Data Cleaning
+- Dashboard Analytics
+- Semantic Search
+- AI Insights
+- Report Generation
 
 ---
-<div align="center">
-  <p>Built with ❤️ by a Computer Science Student.</p>
-</div>
+
+# 🔮 Future Improvements
+
+- Authentication
+- Docker Deployment
+- Scheduled Data Collection
+- Advanced Analytics
+- Time-series Price Tracking
+
+---
