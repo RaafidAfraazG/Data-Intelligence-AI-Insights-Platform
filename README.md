@@ -165,9 +165,6 @@ Frontend:
 ```
 http://localhost:5173
 ```
-
----
-
 # 📡 API Modules
 
 - Product Management
@@ -178,9 +175,6 @@ http://localhost:5173
 - Semantic Search
 - AI Insights
 - Report Generation
-
----
-
 # 🔮 Future Improvements
 
 - Authentication
